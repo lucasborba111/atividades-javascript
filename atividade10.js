@@ -10,7 +10,7 @@ var index = 0;
 for(let i=0; i<=arr.length;i++){
     if(arr[i] != value){
         if(index>0){
-            console.log(('O número '+ value+ ' aparece '+ index+ ' vezes '));
+            document.write(('O número '+ value+ ' aparece '+ index+ ' vezes <br>'));
         }
         value = arr[i];
         index = 1;
